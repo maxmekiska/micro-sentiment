@@ -1,5 +1,5 @@
 # Micro-sentiment
-A Rust tiny micro-service implementation for sentiment analysis.
+A tiny rust micro-service implementation for sentiment analysis.
 
 
 ## Test
