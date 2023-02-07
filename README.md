@@ -17,5 +17,8 @@ http://127.0.0.1:8000/
 ### Sentiment endpoint `/sentiment`
 
 ```shell
-curl -X POST -H "Content-Type: application/json" -d '{"text": "This is not good."}' http://127.0.0.1:8000/sentiment
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{"text": "This is good."}' \
+  http://127.0.0.1:8000/sentiment
 ```
